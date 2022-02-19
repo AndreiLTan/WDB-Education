@@ -1,0 +1,186 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+
+  #eagle {
+      max-height: 40%;
+      margin: auto;
+  }
+
+  .stripe {
+      flex:1;
+      display: flex;
+      flex-direction: row;
+  }
+  .row {
+    display:flex;
+    flex: 1;
+    width: 100%;
+    height: 33.3%;
+  }
+  
+  .half {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 50%;
+  }
+  
+  #crossCorner {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+  }
+
+
+  .stripes {
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+
+  .flexflag {
+      display:flex;
+      height: 100%;
+      width: 100%;
+  }
+
+  .top {
+      display: flex;
+  }
+  
+  .box {
+      flex: 1;
+      display: flex;
+  }
+
+  .small {
+    flex: 0.7;
+  }
+  .big {
+    flex: 2;
+  }
+
+  
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+
+  .image1 {
+      content: url("C:\Users\Manuel Andrei Tan\webdev\flag_eagle.png")
+  }
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+
+  .darkred {
+      background-color:#c00c0c ;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+
+  .darkgreen {
+      background-color: darkgreen;
+  }
+
+  .darkblue {
+      background-color: darkblue;
+  }
+
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+
+  .luxblue {
+      background-color:rgb(47, 134, 192)
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
